@@ -1,0 +1,37 @@
+id = "toolbelt"
+kind = "native-mod"
+name = "Tool Belt"
+summary = "A belt that holds two to nine stacks of tools on your person, with its own menu and commands."
+description = """
+A port of [Tool Belt](https://github.com/gigaherz/ToolBelt) by gigaherz for
+Horizon. This slice is the belt item and its on-item storage.
+
+- The belt holds two to nine slots. Hold it and right-click with an allowed item
+  in your off hand to insert it; sneak-right-click to take the first slot back
+  out; right-click otherwise to open a menu that lists the belt's contents.
+- Allowed means upstream's rule: non-stackable items by default, no bundles and
+  no other belts; equal stacks with the same components merge into one slot.
+- The size and contents live in two item components, so a belt keeps its slots
+  and their positions when it travels between players and machines.
+- `/toolbelt put|take|info|menu` for headless testing.
+
+The radial key menu, wearing it on a curios slot, the upgrades and the pouch are
+later slices. BSD-3-Clause — original copyright and licence notices are kept in
+the port repository; see LICENSE and LICENSE-NOTICE.md there.
+"""
+authors = ["gigaherz", "AdLf0208"]
+owners = ["AdLf0208"]
+owner_ids = [107615167]
+license = "BSD-3-Clause"
+source = "https://github.com/AdLf0208/toolbelt"
+icon = "icons/toolbelt.png"
+categories = ["equipment", "storage"]
+tags = ["port", "inventory", "storage", "tools"]
+
+[[versions]]
+version = "2.2.10"
+published = "2026-11-09"
+game = "26.3"
+file = "toolbelt.hnmod"
+sha256 = "69259430b79d98b07b8b98d0883bf29b40e6a317094b836106ed321ecec71390"
+changelog = "First release"
