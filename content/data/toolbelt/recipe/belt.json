@@ -1,0 +1,18 @@
+{
+  "category": "equipment",
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "l": "minecraft:leather",
+    "s": "minecraft:string"
+  },
+  "pattern": [
+    "sls",
+    "l l",
+    "lil"
+  ],
+  "result": {
+    "count": 1,
+    "id": "toolbelt:belt"
+  },
+  "type": "minecraft:crafting_shaped"
+}

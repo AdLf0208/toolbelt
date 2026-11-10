@@ -1,0 +1,10 @@
+# Port-owned content mod for the Tool Belt 2.2.10 slice: the belt item and its
+# menu assets. The item models, textures, lang and the belt recipe are the
+# upstream mod's own BSD-3-Clause assets, read from the exact ATM10 jar (see
+# ../../_shared/carry-work/toolbelt/SOURCE.md).
+id = "toolbelt"
+name = "Tool Belt"
+version = "0.1.0"
+api = "0.2"
+side = "both"
+capabilities = ["registries"]
