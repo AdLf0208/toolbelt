@@ -1,0 +1,7 @@
+{
+  "components": {
+    "!minecraft:cooking_fuel": {}
+  },
+  "max_stack_size": 1,
+  "template": "minecraft:stick"
+}

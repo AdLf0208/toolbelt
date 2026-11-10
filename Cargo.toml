@@ -1,0 +1,19 @@
+[package]
+# Port of: Tool Belt 2.2.10 (gigaherz/ToolBelt, BSD-3-Clause), Minecraft
+# Java 1.21.1 NeoForge. Clean-room Rust rewrite; local-only until publishing is
+# approved, and publishable under BSD-3-Clause with this source.
+name = "horizon-toolbelt"
+version = "2.2.10"
+edition = "2024"
+rust-version = "1.95"
+license = "BSD-3-Clause"
+description = "Tool Belt for Horizon: the belt item, its on-item storage and menu (slice 1)"
+publish = false
+
+[lib]
+# This exact source is also injected as a same-crate module by horizon-mixins.
+path = "mixins/toolbelt/runtime.rs"
+
+[workspace]
+members = ["tools/audit"]
+resolver = "2"
